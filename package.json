@@ -17,7 +17,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint  --fix src/**/*.js",
-    "format": "prettier src/**/*.js --write. --config ./.prettierrc"  
+    "format": "prettier src/**/*.js --write. --config ./.prettierrc"
   },
   "eslintConfig": {
     "extends": [
@@ -38,8 +38,13 @@
     ]
   },
   "devDependencies": {
+    "@babel/core": "^7.23.5",
+    "@babel/eslint-parser": "^7.23.3",
     "eslint": "^8.54.0",
+    "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
     "eslint-plugin-prettier": "^5.0.1",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
